@@ -8,6 +8,7 @@ import (
 	"github.com/squarepear/aoc/2025/day2"
 	"github.com/squarepear/aoc/2025/day3"
 	"github.com/squarepear/aoc/2025/day4"
+	"github.com/squarepear/aoc/2025/day5"
 )
 
 var Days = map[int]func() error{
@@ -15,6 +16,7 @@ var Days = map[int]func() error{
 	2: day2.Execute,
 	3: day3.Execute,
 	4: day4.Execute,
+	5: day5.Execute,
 }
 
 func main() {
